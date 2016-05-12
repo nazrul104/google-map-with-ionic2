@@ -1,0 +1,16 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Google Map</ion-title>
+  <ion-buttons end>
+    <button (click)="addMarker()">
+      <ion-icon name="add"></ion-icon>Add Marker
+    </button>
+  </ion-buttons>
+</ion-navbar>
+
+<ion-content padding class="map">
+
+  <div id="map" style="height: 300px"></div>
+</ion-content>
